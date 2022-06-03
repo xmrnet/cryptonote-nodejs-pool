@@ -10,9 +10,10 @@
 	"transactionExplorer": "https://explorer.havenprotocol.org/tx/{id}",
 	"daemonType": "default",
 	"cnAlgorithm": "cryptonight_heavy",
-	"cnVariant": null,
-	"cnBlobType": 0,
-
+	"cnVariant": 1,
+	"cnBlobType": 11,
+        "includeAlgo": "cn-heavy/xhv",
+	
 	"logging": {
 		"files": {
 			"level": "info",
